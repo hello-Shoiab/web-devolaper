@@ -6,10 +6,11 @@ body{
 
 
 /* nave releted styels */
-nav{
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 200px;
 }
 
 .text-primary{
@@ -19,6 +20,11 @@ nav{
 .btn-primary{
     border-radius: 5px;
     background-color: #fd6e0a;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
     }
 
 .nav-title {
@@ -39,4 +45,20 @@ nav li{
 
 nav a{
     text-decoration: none;
+    color: #181818;
+}
+
+/* header releted style */
+.header{
+background-color: #fff8f3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
 }
