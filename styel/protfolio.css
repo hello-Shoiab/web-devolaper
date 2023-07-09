@@ -97,6 +97,10 @@ background-position: bottom right;
 }
 
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 /* about section style */
@@ -106,3 +110,16 @@ background-position: bottom right;
     background-color: #fff8f3;
     margin: 130px;
 }
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+
+.about-inf{
+    text-align: center;
+    font-weight: 700;
+}
+
