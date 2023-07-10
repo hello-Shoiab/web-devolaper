@@ -184,7 +184,45 @@ main section {
 
 .download-cv{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
+/* footer styel */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding:130px 200px ;
+
+}
+
+.footer-colum{
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 30px;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+}
+
+.contact input[type="text"], .contact input[type="email"], 
+textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0px;
+    width: 100%;
+    
+    
+}
+
+ 
 
