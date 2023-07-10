@@ -42,6 +42,7 @@ nav {
     color: #181818;
     font size: 45px;
     font-weight: 800px;
+    margin-top:0px;
 }
 
 nav >ul{
@@ -62,9 +63,9 @@ nav a{
 /* header releted style */
 .header{
 background-color: #fff8f3;
-background-image: url('../images/header_bg.png');
+background-image: url('../images/header_bg.png'), url('../images/developer.png');
 background-repeat: no-repeat;
-background-position: bottom right;
+background-position: bottom right,top left;
 }
 
 .banner{
